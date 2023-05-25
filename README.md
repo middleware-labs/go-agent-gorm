@@ -14,7 +14,8 @@ To instrument GORM, you need to install the plugin provided by otelgorm:
 import (
     "gorm.io/gorm"
     "gorm.io/driver/mysql"
-    mw_gorm "github.com/middleware-labs/go-agent-gorm/gorm"
+     mw_gorm "github.com/middleware-labs/go-agent-gorm/gorm"
+     "github.com/middleware-labs/golang-apm/tracker"
 )
 
 db, err := gorm.Open(mysql.Open("username:password@tcp(127.0.0.1:3306)/dbname"), &gorm.Config{})
