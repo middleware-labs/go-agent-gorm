@@ -8,7 +8,7 @@ go get github.com/middleware-labs/go-agent-gorm
 
 ## Usage
 
-To instrument GORM, you need to install the plugin provided by otelgorm:
+To instrument GORM, you need to install the plugin :
 
 ```go
 import (
