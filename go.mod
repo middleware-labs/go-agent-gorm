@@ -3,7 +3,7 @@ module github.com/middleware-labs/go-agent-gorm
 go 1.17
 
 require (
-	github.com/middleware-labs/opentelemetry-go-extra/otelgorm v0.0.0-20230525091924-d9ee7be9fb8b
+	github.com/middleware-labs/opentelemetry-go-extra/otelgorm v0.0.0-20230525110247-433fca557d86
 	go.opentelemetry.io/otel v1.14.0
 	gorm.io/gorm v1.24.5
 )
