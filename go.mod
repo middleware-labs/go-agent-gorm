@@ -15,5 +15,5 @@ require (
 	github.com/jinzhu/now v1.1.5 // indirect
 	github.com/middleware-labs/opentelemetry-go-extra/otelsql v0.0.0-20230525083847-e72447aa02ac // indirect
 	go.opentelemetry.io/otel/metric v0.37.0 // indirect
-	go.opentelemetry.io/otel/trace v1.14.0 // indirect
+	ge v1.14.0 // indirect
 )
