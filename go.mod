@@ -1,6 +1,6 @@
 module github.com/middleware-labs/go-agent-gorm
 
-go 1.17
+go 1.19
 
 require (
 	github.com/middleware-labs/opentelemetry-go-extra/otelgorm v0.0.0-20230531121910-5231181829d8
